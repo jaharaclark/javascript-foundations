@@ -36,7 +36,7 @@ describe('Medusa', function() {
 
   // STOP! Skip down to the bottom of the file and pass first 3 tests for Person down below!
 
-  it('should gain a statue when staring at a person', function() {
+  it.only('should gain a statue when staring at a person', function() {
     var medusa = new Medusa('Eric');
     var victim = new Person('Robbie');
 
